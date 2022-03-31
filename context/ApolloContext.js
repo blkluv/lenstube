@@ -2030,7 +2030,7 @@ function ApolloContextProvider({ children }) {
 		const { v, r, s } = splitSignature(signature);
 		const signer = await wallet.getSigner();
 		const lensHub = new ethers.Contract(
-			"0xd7B3481De00995046C7850bCe9a5196B7605c367",
+			"0x68C89772D05299B7Bb37e9B5C611960C023ca8d1",
 			LENS_HUB_ABI,
 			signer
 		);
@@ -2066,7 +2066,7 @@ function ApolloContextProvider({ children }) {
 		const { v, r, s } = splitSignature(signature);
 		const signer = await wallet.getSigner();
 		const lensHub = new ethers.Contract(
-			"0xd7B3481De00995046C7850bCe9a5196B7605c367",
+			"0x68C89772D05299B7Bb37e9B5C611960C023ca8d1",
 			LENS_HUB_ABI,
 			signer
 		);
@@ -2115,7 +2115,7 @@ function ApolloContextProvider({ children }) {
 		const { v, r, s } = splitSignature(signature);
 		const signer = await wallet.getSigner();
 		const lensHub = new ethers.Contract(
-			"0xd7B3481De00995046C7850bCe9a5196B7605c367",
+			"0xd7B0x68C89772D05299B7Bb37e9B5C611960C023ca8d1",
 			LENS_HUB_ABI,
 			signer
 		);
